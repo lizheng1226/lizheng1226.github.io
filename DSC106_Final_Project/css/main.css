@@ -1,0 +1,119 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size:36px;
+}
+
+h1, h3 {
+    font-family: 'Paytone One', sans-serif;
+}
+
+h3{
+    font-weight: normal; 
+    color:#555;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h2 {
+    color:  #66ccff;
+}
+
+.clear{
+    height:0; 
+    overflow: hidden; 
+    float:none; 
+    clear:both;
+}
+
+.description{
+    line-height:24px; 
+    text-align:center;
+}
+
+.chart-parent--container {
+    display: flex;
+}
+
+#global-map{
+    height:500px;
+}
+
+.chart--container {
+    height: 100%; 
+    width: 100%; 
+    min-height: 400px; 
+}
+
+.banner-img{
+    width:100%; 
+    overflow: hidden;
+}
+
+.banner-img .item{
+    text-align:center;
+}
+
+.banner-img img{
+    height:200px;
+}
+
+.fl{
+    float:left; 
+    width:50%;
+}
+
+.fr{
+    float:right; 
+    width:50%;
+}
+
+.line{
+    border-top:1px solid #d2d2d2; 
+    margin-top: 30px; 
+    height:30px; 
+    float: none; 
+    clear:both;
+}
+
+.sec{
+    position: relative; 
+    min-height:400px; 
+    overflow: hidden;
+}
+
+.sec-pie .fl, .sec-pie .fr{
+    height:400px;
+}
+
+.type-sel{
+    position: absolute; 
+    left:20px; 
+    top:20px; 
+    z-index: 9;
+}
+
+#glogal-map{
+    width:100%; 
+    min-height:400px;
+}
+
+#table{
+    width:90%; 
+    margin:20px auto; 
+    text-align:center;
+}
+
+.sec .sec-text{
+    float: left; 
+    width:30%;
+}
+
+.sec .sec-chart{
+    float: right; 
+    width:70%;
+}
