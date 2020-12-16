@@ -230,7 +230,7 @@ function showBarChart(){
             type: 'bar'
         },
         title: {
-            text: 'Top 10 Game Makers Breakdown'
+            text: 'Top 10 Game Publishers Breakdown'
         },
         subtitle: {
             text: 'Source: <a href="https://www.kaggle.com/sidtwr/videogames-sales-dataset">Video Games Sales Dataset</a>'
