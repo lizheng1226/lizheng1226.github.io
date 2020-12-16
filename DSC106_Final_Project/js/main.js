@@ -236,7 +236,10 @@ function showBarChart(){
             text: 'Source: <a href="https://www.kaggle.com/sidtwr/videogames-sales-dataset">Video Games Sales Dataset</a>'
         },
         xAxis: {
-            categories: legend
+            categories: legend,
+            title: {
+                text: 'Game Publisher'
+            }
         },
         yAxis: {
             min: 0,
@@ -313,7 +316,7 @@ function showBarChart2(){
             type: 'column'
         },
         title: {
-            text: 'Top 10 selling games'
+            text: 'Top 10 game sales'
         },
         subtitle: {
             text: 'Source: <a href="https://www.kaggle.com/sidtwr/videogames-sales-dataset">Video Games Sales Dataset</a>'
